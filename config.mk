@@ -10,8 +10,9 @@
 # accroding to your real board type.
 #
 #include ./configs/config_tiny210.mk
-include ./configs/config_bubblegum.mk
+#include ./configs/config_bubblegum.mk
 #include ./configs/config_hikey.mk
+include ./configs/config_cubieboard7.mk
 
 
 #
